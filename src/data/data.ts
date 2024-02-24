@@ -192,5 +192,3 @@ export const themes: Theme[] = [
     },
   },
 ]
-
-export const SearchbarText = "Remember!"
