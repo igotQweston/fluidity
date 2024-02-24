@@ -106,7 +106,7 @@ export const links: linkGroup[] = [
     ],
   },
   {
-    title: "Sauces and Shitposts",
+    title: "Sauces & Shitposts",
     links: [
       {
         label: "Nobody Kanna Cross It",
