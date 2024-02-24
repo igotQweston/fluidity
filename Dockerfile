@@ -20,4 +20,4 @@ RUN npm run build
 FROM nginx:alpine
 
 ##-- Copy app build into nginx
-COPY --from=build /home/node/build /usr/share/nginx/html
+COPY /home/node/build /usr/share/nginx/html
