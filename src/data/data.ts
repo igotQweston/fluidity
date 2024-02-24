@@ -85,8 +85,7 @@ export const links: linkGroup[] = [
       },
       {
         label: "/k/",
-        value:
-          "https://www.boards.4chan.org/k/",
+        value: "https://www.boards.4chan.org/k/",
       },
       {
         label: "/g/",
@@ -95,18 +94,15 @@ export const links: linkGroup[] = [
       },
       {
         label: "/pol/",
-        value:
-          "https://www.boards.4chan.org/pol/",
+        value: "https://www.boards.4chan.org/pol/",
       },
       {
         label: "/r9k/",
-        value:
-          "https://www.boards.4chan.org/r9k/",
+        value: "https://www.boards.4chan.org/r9k/",
       },
       {
         label: "/b/",
-        value:
-          "https://www.boards.4chan.org/b/",
+        value: "https://www.boards.4chan.org/b/",
       },
     ],
   },
@@ -194,6 +190,6 @@ export const themes: Theme[] = [
       "--default-color": "#CDD6F4",
       "--accent-color": "#B4BEFE",
       "--accent-color2": "#89B4FA",
-    }
+    },
   },
 ]
