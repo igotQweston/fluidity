@@ -79,7 +79,7 @@ export const Searchbar = () => {
     <StyledSearchbarContainer>
       {searchSymbol && <SearchIcon src={searchSymbol} />}
       <StyledSearchbar
-        placeholder=SearchbarText
+        placeholder = `${SearchbarText}`
         type="input"
         onKeyUp={e => e.which === 13 && redirectToSearch(e.currentTarget.value)}
         // eslint-disable-next-line jsx-a11y/no-autofocus
