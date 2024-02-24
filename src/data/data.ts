@@ -187,8 +187,8 @@ export const themes: Theme[] = [
     colors: {
       "--bg-color": "#181825",
       "--default-color": "#CDD6F4",
-      "--accent-color": "#B4BEFE",
-      "--accent-color2": "#89B4FA",
+      "--accent-color": "#89B4FA",
+      "--accent-color2": "#B4BEFE",
     },
   },
 ]
