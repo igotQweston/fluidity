@@ -8,6 +8,9 @@ export default defineConfig(() => {
     base: "./",
     build: {
       outDir: "build",
+      rollupOptions: {
+    input: './index.html', // adjust the path if needed
+  }
     },
     plugins: [
       react(),
