@@ -12,7 +12,7 @@ ADD --chown=node:node ./tsconfig.json .
 ADD --chown=node:node ./index.html .
 
 ##-- Build the app
-RUN npm ci
+RUN npm install
 COPY . .
 RUN npm run build
 
