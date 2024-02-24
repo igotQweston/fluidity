@@ -9,6 +9,7 @@ ADD --chown=node:node ./public ./public
 ADD --chown=node:node ./src ./src
 ADD --chown=node:node ./package.json .
 ADD --chown=node:node ./tsconfig.json .
+ADD --chown=node:node ./index.html .
 
 ##-- Build the app
 RUN npm install
