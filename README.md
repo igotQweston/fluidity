@@ -1,4 +1,4 @@
-# I AM NOT THE CREATOR. THIS IS MY OWN FORK OF THE PROJECT WHICH ALSO MAINTAIN AND DEPLOY DOCKERS OF THE FORK
+# I AM NOT THE CREATOR. THIS IS MY OWN FORK OF THE PROJECT WHICH ALSO MAINTAIN AND DEPLOY DOCKER FILES OF MY OWN FORK
 ![logo](https://github.com/PrettyCoffee/fluidity/blob/main/public/logo192.png)
 
 [![Docker](https://github.com/igotQweston/fluidity/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/igotQweston/fluidity/actions/workflows/docker-publish.yml)
