@@ -152,6 +152,6 @@ export const themes: Theme[] = [
       "--default-color": "#CDD6F4",
       "--accent-color": "#B4BEFE",
       "--accent-color2": "#89B4FA",
-    }
+    },
   },
 ]
