@@ -89,8 +89,7 @@ export const links: linkGroup[] = [
       },
       {
         label: "/g/",
-        value:
-          "https://www.boards.4chan.org/g/",
+        value: "https://www.boards.4chan.org/g/",
       },
       {
         label: "/pol/",
