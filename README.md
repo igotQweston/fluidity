@@ -1,5 +1,7 @@
+# I AM NOT THE CREATOR. THIS IS MY OWN FORK OF THE PROJECT WHICH ALSO MAINTAIN AND DEPLOY DOCKERS OF THE FORK
 ![logo](https://github.com/PrettyCoffee/fluidity/blob/main/public/logo192.png)
 
+[![Docker](https://github.com/igotQweston/fluidity/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/igotQweston/fluidity/actions/workflows/docker-publish.yml)
 # Fluidity - An accordion based startpage
 Here you can find the startpage I created for my browser :)
 
@@ -46,6 +48,7 @@ $ docker run -d --name fluidity -p 8080:80 fluidity
 ```
 
 It will be deployed on port 8080. (`http:\\localhost:8080`)
+You can also get the image from the packages tab
 
 ## Advanced: Changing the code
 Since this project is programmed with React and TypeScript, you will first need to set it up:
