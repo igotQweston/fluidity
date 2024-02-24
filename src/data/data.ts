@@ -30,75 +30,11 @@ export interface linkGroup {
 
 export const links: linkGroup[] = [
   {
-    title: "Reddit",
+    title: "Programming",
     links: [
       {
-        label: "r/startpages",
-        value: "https://www.reddit.com/r/startpages/",
-      },
-      {
-        label: "r/unixporn",
-        value: "https://www.reddit.com/r/unixporn/",
-      },
-      {
-        label: "r/rainmeter",
-        value: "https://www.reddit.com/r/rainmeter/",
-      },
-      {
-        label: "r/AnimalsBeingDerps",
-        value: "https://www.reddit.com/r/AnimalsBeingDerps/",
-      },
-    ],
-  },
-  {
-    title: "3D Modelling",
-    links: [
-      {
-        label: "Blender",
-        value: "https://www.blender.org/",
-      },
-      {
-        label: "BlenderGuru",
-        value: "https://www.blenderguru.com/",
-      },
-      {
-        label: "Poliigon",
-        value: "https://www.poliigon.com/",
-      },
-      {
-        label: "Blender tutorial",
-        value:
-          "https://www.youtube.com/watch?v=NyJWoyVx_XI&list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U",
-      },
-      {
-        label: "The other Blender tutorial",
-        value:
-          "https://www.youtube.com/watch?v=bpvh-9H8S1g&list=PL8eKBkZzqDiU-qcoaghCz04sMitC1yx6k&index=1",
-      },
-    ],
-  },
-  {
-    title: "Design",
-    links: [
-      {
-        label: "PixlrX",
-        value: "https://pixlr.com/x/",
-      },
-      {
-        label: "AI Image Enlarger",
-        value: "https://bigjpg.com/en",
-      },
-      {
-        label: "Img to Svg Converter",
-        value: "https://picsvg.com/",
-      },
-      {
-        label: "Affinity",
-        value: "https://affinity.serif.com/en-us/tutorials/designer/desktop/",
-      },
-      {
-        label: "Affinity - YT",
-        value: "https://www.youtube.com/c/AffinityRevolution/playlists",
+        label: "GitHub",
+        value: "https://www.github.com/",
       },
     ],
   },
@@ -106,54 +42,80 @@ export const links: linkGroup[] = [
     title: "Music",
     links: [
       {
-        label: "i wanna be a cowboy",
-        value: "https://www.youtube.com/watch?v=8zWz92f_HGs",
-      },
-      {
-        label: "let the bodies hit the floor",
-        value: "https://www.youtube.com/watch?v=b--VKaCB9u0",
-      },
-      {
         label: "Nobody Kanna Cross It",
         value: "https://www.youtube.com/watch?v=2wqTnwJGvtc",
-      },
-      {
-        label: "Smug Dancin",
-        value: "https://www.youtube.com/watch?v=eNZ9Od1jQ4Q",
-      },
-      {
-        label: "Utamaru - The Sanctified Mind Cover",
-        value: "https://www.youtube.com/watch?v=MHlJKLlS07U",
       },
     ],
   },
   {
-    title: "Sauce",
+    title: "Reddit",
     links: [
       {
-        label: "Pictures - DeathAndMilk",
-        value: "https://www.instagram.com/deathandmilk_/",
+        label: "r/unixporn",
+        value: "https://www.reddit.com/r/unixporn/",
       },
       {
-        label: "Icons - FontAwesome",
-        value: "https://fontawesome.com/icons",
+        label: "r/ProgrammerHumor",
+        value: "https://www.reddit.com/r/ProgrammerHumor/",
       },
       {
-        label: "Text Flicker - CodeMyUI",
+        label: "r/startpages",
+        value: "https://www.reddit.com/r/startpages/",
+      },
+      {
+        label: "r/japanesepeopletwitter",
+        value: "https://www.reddit.com/r/japanesepeopletwitter/",
+      },
+    ],
+  },
+  {
+    title: "4chan",
+    links: [
+      {
+        label: "/wg/",
+        value: "https://www.boards.4chan.org/wg/",
+      },
+      {
+        label: "/w/",
+        value: "https://www.boards.4chan.org/w/",
+      },
+      {
+        label: "/vt/",
+        value: "https://www.boards.4chan.org/vt/",
+      },
+      {
+        label: "/k/",
         value:
-          "https://codemyui.com/crt-screen-text-flicker-animation-in-pure-css/",
+          "https://www.boards.4chan.org/k/",
       },
       {
-        label: "Wave Animation - mburakerman",
-        value: "https://codepen.io/mburakerman/pen/eRZZEv",
+        label: "/g/",
+        value:
+          "https://www.boards.4chan.org/g/",
       },
       {
-        label: "Da real sauce ԅ(♡﹃♡ԅ)",
-        value: "https://www.youtube.com/watch?v=qr89xoZyE1g",
+        label: "/pol/",
+        value:
+          "https://www.boards.4chan.org/pol/",
       },
       {
-        label: "Even more real sauce ( ͡° ͜ʖ ͡°)",
-        value: "https://www.youtube.com/watch?v=VLhJOd_TFiI",
+        label: "/r9k/",
+        value:
+          "https://www.boards.4chan.org/r9k/",
+      },
+      {
+        label: "/b/",
+        value:
+          "https://www.boards.4chan.org/b/",
+      },
+    ],
+  },
+  {
+    title: "Sauces and Shitposts",
+    links: [
+      {
+        label: "Nobody Kanna Cross It",
+        value: "https://www.youtube.com/watch?v=2wqTnwJGvtc",
       },
     ],
   },
@@ -172,12 +134,12 @@ export const images: dataElem[] = [
 
 export const searchEngines: dataElem[] = [
   {
-    label: "DuckDuckGo",
-    value: `https://duckduckgo.com/?q=${queryToken}`,
-  },
-  {
     label: "Google",
     value: `https://www.google.com/search?q=${queryToken}`,
+  },
+  {
+    label: "DuckDuckGo",
+    value: `https://duckduckgo.com/?q=${queryToken}`,
   },
   {
     label: "Qwant",
@@ -200,7 +162,7 @@ export const searchSettings: Search = {
   engine: searchEngines[0].value,
   fastForward: {
     deepl: "https://deepl.com/",
-    maps: "https://google.de/maps/",
+    maps: "https://google.com/maps/",
     reddit: "https://reddit.com/",
     github: "https://github.com/",
     gitlab: "https://gitlab.com/",
@@ -228,136 +190,10 @@ export const themes: Theme[] = [
     image:
       "https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png",
     colors: {
-      "--bg-color": "#24273A",
-      "--default-color": "#CAD3F5",
-      "--accent-color": "#C6A0F6",
-      "--accent-color2": "#8AADF4",
-    },
-  },
-  {
-    name: "DeathAndMilk",
-    image: pic_1,
-    colors: {
-      "--bg-color": "#2E2E2E",
-      "--default-color": "#E6E6E6",
-      "--accent-color": "#FFB4E6",
-      "--accent-color2": "#B4FFE6",
-    },
-  },
-  {
-    name: "Pop!OS",
-    image:
-      "https://oswallpapers.com/wp-content/uploads/2019/04/kate-hazen-unleash-your-robot.jpg",
-    colors: {
-      "--bg-color": "#333136",
-      "--default-color": "#2BC5EB",
-      "--accent-color": "#FCD307",
-      "--accent-color2": "#2BC5EB",
-    },
-  },
-  {
-    name: "Dark Souls",
-    image:
-      "https://i.pinimg.com/originals/16/74/db/1674dbae45cd38f3d3b4c00dc8616bd7.gif",
-    colors: {
-      "--bg-color": "#32323C",
-      "--default-color": "#A0A08C",
-      "--accent-color": "#9A6650",
-      "--accent-color2": "#461E28",
-    },
-  },
-  {
-    name: "S.E.Lain",
-    image:
-      "https://64.media.tumblr.com/54a945edd2641e20859d6f6537cd7423/tumblr_pwa4bogz4N1qze3hdo2_r1_500.gifv",
-    colors: {
-      "--bg-color": "#0a1a25",
-      "--default-color": "#a6b7ab",
-      "--accent-color": "#94656b",
-      "--accent-color2": "#57182e",
-    },
-  },
-  {
-    name: "Kitties",
-    image:
-      "https://64.media.tumblr.com/5a232d5c0999d02388d78e5c1025f94f/0572516693bf4014-3d/s500x750/0306dc89b657093529aa3ce96e64b9c43572e901.gifv",
-    colors: {
-      "--bg-color": "#495662",
-      "--default-color": "#d1f1fa",
-      "--accent-color": "#80aad4",
-      "--accent-color2": "#e8a9b7",
-    },
-  },
-  {
-    name: "pretty chill",
-    image:
-      "https://e4p7c9i3.stackpathcdn.com/wp-content/uploads/2019/05/tumblr_oymsnbT0111vjxiz1o1_1280.gif?iv=165",
-    colors: {
-      "--bg-color": "#397d76",
-      "--default-color": "#f1daba",
-      "--accent-color": "#c5bdb5",
-      "--accent-color2": "#93a662",
-    },
-  },
-  {
-    name: "Tartarus",
-    image:
-      "https://64.media.tumblr.com/8de9e4d31a132f7617ecc05e6a0f8807/tumblr_nd048m6QFH1tqptlzo1_500.gifv",
-    colors: {
-      "--bg-color": "#282828",
-      "--default-color": "#D4BE98",
-      "--accent-color": "#7DAEA3",
-      "--accent-color2": "#A9B665",
-    },
-  },
-  {
-    name: "Pastel Aesthetic",
-    image: "https://i.imgur.com/bZHurZn.jpeg",
-    colors: {
-      "--bg-color": "#2E2E2E",
-      "--default-color": "#F3C9CB",
-      "--accent-color": "#6D79BF",
-      "--accent-color2": "#FBECEF",
-    },
-  },
-  {
-    name: "Bohemian",
-    image: "https://i.imgur.com/gcZ6fmk.jpeg",
-    colors: {
-      "--bg-color": "#2E2E2E",
-      "--default-color": "#D6B29A",
-      "--accent-color": "#B35000",
-      "--accent-color2": "#FBECEF",
-    },
-  },
-  {
-    name: "Modern Boho",
-    image: "https://i.imgur.com/HkEcwGl.jpeg",
-    colors: {
-      "--bg-color": "#2E2E2E",
-      "--default-color": "#C66B3C",
-      "--accent-color": "#F6BC7C",
-      "--accent-color2": "#54573C",
-    },
-  },
-  {
-    name: "Gruvbox Inspired Green",
-    image: "https://i.imgur.com/ISjs7cg.jpeg",
-    colors: {
-      "--bg-color": "#2E2E2E",
-      "--default-color": "#CC9A52",
-      "--accent-color": "#647D44",
-      "--accent-color2": "#FCE4B4",
-    },
-  },
-  {
-    name: "Beach",
-    image: "https://i.imgur.com/gcW1jul.jpeg",
-    colors: {
-      "--bg-color": "#2E2E2E",
-      "--default-color": "#E3C9BC",
-      "--accent-color": "#91C6CC",
-      "--accent-color2": "#F0F8FA",
+      "--bg-color": "#181825",
+      "--default-color": "#CDD6F4",
+      "--accent-color": "#B4BEFE",
+      "--accent-color2": "#89B4FA",
     },
   },
 ]
