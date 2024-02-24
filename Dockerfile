@@ -12,7 +12,8 @@ ADD --chown=node:node ./tsconfig.json .
 ADD --chown=node:node ./index.html .
 
 ##-- Build the app
-RUN npm install
+RUN npm ci
+COPY . .
 RUN npm run build
 
 
@@ -20,4 +21,4 @@ RUN npm run build
 FROM nginx:alpine
 
 ##-- Copy app build into nginx
-COPY /home/node/build /usr/share/nginx/html
+COPY --from=build /home/node/build /usr/share/nginx/html
