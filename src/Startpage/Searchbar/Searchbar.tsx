@@ -7,7 +7,6 @@ import ecosia from "../../data/pictures/ecosia.svg"
 import google from "../../data/pictures/google.svg"
 import qwant from "../../data/pictures/qwant.svg"
 import * as Settings from "../Settings/settingsHandler"
-import SearchbarText from ".../data/data"
 
 export const queryToken = "{{query}}"
 
@@ -79,7 +78,7 @@ export const Searchbar = () => {
     <StyledSearchbarContainer>
       {searchSymbol && <SearchIcon src={searchSymbol} />}
       <StyledSearchbar
-        placeholder={SearchbarText}
+        placeholder="Search..."
         type="input"
         onKeyUp={e => e.which === 13 && redirectToSearch(e.currentTarget.value)}
         // eslint-disable-next-line jsx-a11y/no-autofocus
