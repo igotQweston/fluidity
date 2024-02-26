@@ -73,35 +73,35 @@ export const links: linkGroup[] = [
     links: [
       {
         label: "/wg/",
-        value: "https://www.boards.4chan.org/wg/",
+        value: "https://boards.4chan.org/wg/",
       },
       {
         label: "/w/",
-        value: "https://www.boards.4chan.org/w/",
+        value: "https://boards.4chan.org/w/",
       },
       {
         label: "/vt/",
-        value: "https://www.boards.4chan.org/vt/",
+        value: "https://boards.4chan.org/vt/",
       },
       {
         label: "/k/",
-        value: "https://www.boards.4chan.org/k/",
+        value: "https://boards.4chan.org/k/",
       },
       {
         label: "/g/",
-        value: "https://www.boards.4chan.org/g/",
+        value: "https://boards.4chan.org/g/",
       },
       {
         label: "/pol/",
-        value: "https://www.boards.4chan.org/pol/",
+        value: "https://boards.4chan.org/pol/",
       },
       {
         label: "/r9k/",
-        value: "https://www.boards.4chan.org/r9k/",
+        value: "https://boards.4chan.org/r9k/",
       },
       {
         label: "/b/",
-        value: "https://www.boards.4chan.org/b/",
+        value: "https://boards.4chan.org/b/",
       },
     ],
   },
