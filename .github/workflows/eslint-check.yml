@@ -26,5 +26,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm install eslint @pretty-cozy/eslint-config
+    - run: npm install -D @pretty-cozy/eslint-config
+    - run: npm install eslint
     - run: npx eslint ./src
