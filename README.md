@@ -1,4 +1,7 @@
-# I AM NOT THE CREATOR. THIS IS MY OWN FORK OF THE PROJECT WHICH ALSO MAINTAIN AND DEPLOY DOCKER FILES OF MY OWN FORK
+**THIS IS MY OWN FORK OF THE PROJECT WHICH AIMS TO AUTOMATE THE DOCKER BUILDING OF MY FORK**
+**FORK THIS IF YOU WANT TO AUTOMATE YOUR OWN FORK'S DOCKER IMAGE BUILDING**
+# 
+
 ![logo](https://github.com/PrettyCoffee/fluidity/blob/main/public/logo192.png)
 
 [![ESLint](https://github.com/igotQweston/fluidity/actions/workflows/eslint-check.yml/badge.svg)](https://github.com/igotQweston/fluidity/actions/workflows/eslint-check.yml)    [![Docker](https://github.com/igotQweston/fluidity/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/igotQweston/fluidity/actions/workflows/docker-publish.yml)
