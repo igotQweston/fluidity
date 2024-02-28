@@ -38,7 +38,7 @@ export const links: linkGroup[] = [
       },
       {
         label: "MIT OCW",
-        value: 
+        value:
           "https://ocw.mit.edu/search/?d=Electrical%20Engineering%20and%20Computer%20Science&f=Programming%20Assignments&f=Projects&f=Projects%20with%20Examples&f=Programming%20Assignments%20with%20Examples&f=Activity%20Assignments&f=Course%20Introduction&f=Activity%20Assignments%20with%20Examples&f=Instructor%20Insights&f=Multiple%20Assignment%20Types",
       },
     ],
