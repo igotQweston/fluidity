@@ -1,7 +1,7 @@
 # I AM NOT THE CREATOR. THIS IS MY OWN FORK OF THE PROJECT WHICH ALSO MAINTAIN AND DEPLOY DOCKER FILES OF MY OWN FORK
 ![logo](https://github.com/PrettyCoffee/fluidity/blob/main/public/logo192.png)
 
-[![ESLint Check](https://github.com/igotQweston/fluidity/actions/workflows/eslint-check.yml/badge.svg)](https://github.com/igotQweston/fluidity/actions/workflows/eslint-check.yml)    [![Docker](https://github.com/igotQweston/fluidity/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/igotQweston/fluidity/actions/workflows/docker-publish.yml)
+[![ESLint](https://github.com/igotQweston/fluidity/actions/workflows/eslint-check.yml/badge.svg)](https://github.com/igotQweston/fluidity/actions/workflows/eslint-check.yml)    [![Docker](https://github.com/igotQweston/fluidity/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/igotQweston/fluidity/actions/workflows/docker-publish.yml)
 # Fluidity - An accordion based startpage
 Here you can find the startpage I created for my browser :)
 
