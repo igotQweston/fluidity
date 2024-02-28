@@ -1,7 +1,7 @@
 # I AM NOT THE CREATOR. THIS IS MY OWN FORK OF THE PROJECT WHICH ALSO MAINTAIN AND DEPLOY DOCKER FILES OF MY OWN FORK
 ![logo](https://github.com/PrettyCoffee/fluidity/blob/main/public/logo192.png)
 
-[![Docker](https://github.com/igotQweston/fluidity/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/igotQweston/fluidity/actions/workflows/docker-publish.yml)
+[![ESLint Check](https://github.com/igotQweston/fluidity/actions/workflows/eslint-check.yml/badge.svg)](https://github.com/igotQweston/fluidity/actions/workflows/eslint-check.yml)    [![Docker](https://github.com/igotQweston/fluidity/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/igotQweston/fluidity/actions/workflows/docker-publish.yml)
 # Fluidity - An accordion based startpage
 Here you can find the startpage I created for my browser :)
 
@@ -35,9 +35,10 @@ You can set it up locally yourself with the following steps:
 If you have a github account you can of course also just fork the repo and create a github page yourself ;)
 
 ## Docker setup
+### Build your own image
 If you are familiar with Docker, you can use the provided docker file which will build the app and deploy it with nginx.
 
-You can use the following commands to deploy a container:
+You can use the following commands to build and deploy a container:
 
 ```bash
 # build
@@ -48,7 +49,19 @@ $ docker run -d --name fluidity -p 8080:80 fluidity
 ```
 
 It will be deployed on port 8080. (`http:\\localhost:8080`)
-You can also get the image from the packages tab
+
+### Use prebuild image
+You can also use the prebuild image from the packages tab.
+Use the following commands to build and deploy a container:
+
+```bash
+# pull image
+$ docker pull ghcr.io/igotqweston/fluidity:latest
+
+# run
+$ docker run -d --name fluidity -p 8080:80 ghcr.io/igotqweston/fluidity:latest
+```
+It will be deployed on port 8080. (`http:\\localhost:8080`)
 
 ## Advanced: Changing the code
 Since this project is programmed with React and TypeScript, you will first need to set it up:
