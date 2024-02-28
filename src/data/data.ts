@@ -36,9 +36,10 @@ export const links: linkGroup[] = [
         label: "GitHub",
         value: "https://www.github.com/",
       },
-    {
+      {
         label: "MIT OCW",
-        value: "https://ocw.mit.edu/search/?d=Electrical%20Engineering%20and%20Computer%20Science&f=Programming%20Assignments&f=Projects&f=Projects%20with%20Examples&f=Programming%20Assignments%20with%20Examples&f=Activity%20Assignments&f=Course%20Introduction&f=Activity%20Assignments%20with%20Examples&f=Instructor%20Insights&f=Multiple%20Assignment%20Types",
+        value: 
+          "https://ocw.mit.edu/search/?d=Electrical%20Engineering%20and%20Computer%20Science&f=Programming%20Assignments&f=Projects&f=Projects%20with%20Examples&f=Programming%20Assignments%20with%20Examples&f=Activity%20Assignments&f=Course%20Introduction&f=Activity%20Assignments%20with%20Examples&f=Instructor%20Insights&f=Multiple%20Assignment%20Types",
       },
     ],
   },
@@ -166,7 +167,7 @@ export const searchSettings: Search = {
     github: "https://github.com/",
     gitlab: "https://gitlab.com/",
     youtube: "https://youtube.com/",
-    google: "https://google.com/"
+    google: "https://google.com/",
   },
 }
 
@@ -187,8 +188,7 @@ export interface Theme {
 export const themes: Theme[] = [
   {
     name: "Catppuccin",
-    image:
-      catppuccin1544x1544_circle,
+    image: catppuccin1544x1544_circle,
     colors: {
       "--bg-color": "#181825",
       "--default-color": "#CDD6F4",
