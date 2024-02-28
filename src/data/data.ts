@@ -1,4 +1,4 @@
-import pic_1 from "./pictures/pic_1.jpg"
+import catppuccin1544x1544_circle from "./pictures/catppuccin-1544x1544_circle.png"
 import pic_2 from "./pictures/pic_2.jpg"
 import pic_3 from "./pictures/pic_3.jpg"
 import pic_4 from "./pictures/pic_4.jpg"
@@ -35,6 +35,10 @@ export const links: linkGroup[] = [
       {
         label: "GitHub",
         value: "https://www.github.com/",
+      },
+    {
+        label: "MIT OCW",
+        value: "https://ocw.mit.edu/search/?d=Electrical%20Engineering%20and%20Computer%20Science&f=Programming%20Assignments&f=Projects&f=Projects%20with%20Examples&f=Programming%20Assignments%20with%20Examples&f=Activity%20Assignments&f=Course%20Introduction&f=Activity%20Assignments%20with%20Examples&f=Instructor%20Insights&f=Multiple%20Assignment%20Types",
       },
     ],
   },
@@ -117,7 +121,7 @@ export const links: linkGroup[] = [
 ]
 
 export const images: dataElem[] = [
-  { label: "pic_1", value: pic_1 },
+  { label: "Catppuccin", value: catppuccin1544x1544_circle },
   { label: "pic_2", value: pic_2 },
   { label: "pic_3", value: pic_3 },
   { label: "pic_4", value: pic_4 },
@@ -162,6 +166,7 @@ export const searchSettings: Search = {
     github: "https://github.com/",
     gitlab: "https://gitlab.com/",
     youtube: "https://youtube.com/",
+    google: "https://google.com/"
   },
 }
 
@@ -183,7 +188,7 @@ export const themes: Theme[] = [
   {
     name: "Catppuccin",
     image:
-      "https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png",
+      catppuccin1544x1544_circle,
     colors: {
       "--bg-color": "#181825",
       "--default-color": "#CDD6F4",
