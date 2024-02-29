@@ -47,6 +47,10 @@ export const links: linkGroup[] = [
     title: "Music",
     links: [
       {
+        label: "Last.fm",
+        value: "https://www.last.fm/user/FawkesND",
+      },
+      {
         label: "Nobody Kanna Cross It",
         value: "https://www.youtube.com/watch?v=2wqTnwJGvtc",
       },
